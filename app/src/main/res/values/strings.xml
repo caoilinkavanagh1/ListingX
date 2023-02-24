@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Task Listings</string>
+    <string name="donateTitle">Welcome User</string>
+    <string name="donateSubtitle">Please Add Details</string>
+    <string name="donateButton">Submit</string>
+    <string name="paypal">Cash</string>
+    <string name="direct">Direct Debit</string>
+    <string name="amount">Amount</string>
+    <string name="exercise">Exercise</string>
+    <string name="address">Address</string>
+    <string name="total">Total so Far</string>
+    <string name="totalSoFar">$ Total</string>
+    <string name="reportTitle">Tasks</string>
+    <string name="defaultAmount">00</string>
+    <string name="defaultMethod">N/A</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="enter_exercise">Enter Exercise</string>
+    <string name="action_donate">Add Listing</string>
+    <string name="action_report">Tasks</string>
+    <string name="jobmethod">jobmethod</string>
+    <string name="area">area</string>
+    <string name="username">username</string>
+    <string name="description">description</string>
+
+    <string name="hello_world">Hello world</string>
+    <string name="api_key">AIzaSyAsg8Roimlx8gE4ttRoEHij3alILpFkx0M</string>
+
+    <string name="total_donated">$%d</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_send">Send</string>
+    <string name="group_communicate">Communicate</string>
+
+    <string name="nav_header_title">Task Listing</string>
+    <string name="nav_header_subtitle">ineedaplumber@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_about">About Us</string>
+    <string name="aboutus_title">Job Listings !!</string>
+    <string name="aboutus_message">Hi, Welcome to Task Listings\n\nPlease list an jobs you need completed.\n\n We look forward to connnecting you with the right people!</string>
+
+    <string name="donationsNotFound">No Jobs Yet…\nGo Check back later!</string>
+    <string name="donationError">Error : Couldn\'t add the Listing.. please check input…</string>
+    <string name="donationDetails">JOb Listing Details Details</string>
+
+    <string name="amt">Amount :</string>
+    <string name="payment">Payment :</string>
+    <string name="message">Message :</string>
+    <string name="upvotes">UpVotes :</string>
+</resources>
