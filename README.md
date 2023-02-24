@@ -11,4 +11,6 @@ I attempted to use the following, as they were not completed the way I wanted th
   google JSON services
   google maps
   
+I will not include references for these as I took them out of the project to ensure it would run.
+I mainly used the lab documentation and google documentation for anything api related.
 
