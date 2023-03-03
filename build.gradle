@@ -20,4 +20,6 @@ task clean(type: Delete) {
 
 repositories {
   //  google()
+    google()  // Google's Maven repository
+    mavenCentral()  // Maven Central repository
 }

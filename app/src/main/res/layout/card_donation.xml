@@ -25,6 +25,7 @@
             <TextView
                 android:id="@+id/jobmethod"
                 android:layout_width="154dp"
+                android:textColor="@color/color_secondary"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
@@ -40,6 +41,7 @@
                 android:layout_height="45dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
+                android:textColor="@color/color_secondary"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="150dp"
@@ -66,6 +68,7 @@
                 android:id="@+id/username"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:textColor="@color/color_secondary"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"

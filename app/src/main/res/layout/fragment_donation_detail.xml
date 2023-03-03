@@ -1,63 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:autofillHints="@string/aboutus_title"
     tools:context=".ui.detail.DonationDetailFragment"
     tools:ignore="MissingClass">
 
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="133dp"
-        android:layout_height="58dp"
-        android:text="@string/username"
-        android:textAlignment="textEnd"
-        android:textColor="#E91E63"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/area"
+        android:textColor="@color/color_secondary"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/editDonationButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.473" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
-        android:id="@+id/username"
+        android:id="@+id/welcomelisting"
+        android:layout_width="298dp"
+        android:layout_height="85dp"
+        android:text="@string/welcomelisting"
+        android:textColor="@color/color_h1"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/editDonationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/area"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="296dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="388dp"
-        android:text="@string/description"
-        android:textAlignment="textEnd"
-        android:textColor="@color/black"
+        android:id="@+id/textView7"
+        android:layout_width="139dp"
+        android:layout_height="31dp"
+        android:text="@string/username"
+        android:textColor="@color/color_secondary"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editDonationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="496dp"
+        android:text="@string/description"
+        android:textColor="@color/color_secondary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editDonationButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="284dp"
         android:text="@string/jobmethod"
-        android:textAlignment="textEnd"
-        android:textColor="@color/color_primary"
+        android:textColor="@color/color_secondary"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -66,8 +106,8 @@
         android:id="@+id/jobmethod"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -78,22 +118,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
-        android:layout_marginBottom="184dp"
+        android:layout_marginBottom="268dp"
         android:text="@string/payment"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
+        android:textColor="@color/color_secondary"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/editDonationButton"
         app:layout_constraintEnd_toStartOf="@+id/editPaymenttype"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/description"
-        android:layout_width="210dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="388dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="284dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="88dp"
+        android:autofillHints="Descr"
         android:ems="10"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,39 +144,42 @@
         android:id="@+id/amount"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="528dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/deleteDonationButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="208dp"
         android:text="@string/amt"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
+        android:textColor="@color/color_secondary"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/editDonationButton"
         app:layout_constraintEnd_toStartOf="@+id/amount"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/editPaymenttype"
         android:layout_width="213dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="464dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="16dp"
         android:textAlignment="textStart"
         android:textColor="@color/color_primary"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/deleteDonationButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
 
     <Button
         android:id="@+id/editDonationButton"
@@ -156,17 +200,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editDonationButton" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="224dp"
-        android:layout_height="203dp"
-        android:layout_marginBottom="404dp"
-        android:src="@android:drawable/ic_menu_camera"
-        app:layout_constraintBottom_toTopOf="@+id/deleteDonationButton"
+    <TextView
+        android:id="@+id/donateSubtitle"
+        android:layout_width="341dp"
+        android:layout_height="45dp"
+        android:text="@string/donateSubtitle"
+        android:textColor="@color/color_h1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editDonationButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintHorizontal_bias="0.137"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.217" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
